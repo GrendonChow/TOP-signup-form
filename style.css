@@ -11,7 +11,7 @@ body {
     height: 100vh;
   }
 
-  img{
+  .backgroundImage{
     position:absolute;
     height: 100%;
     width: 100%;
@@ -21,15 +21,29 @@ body {
     font-weight: bold;
     color: white;
   }
-
-  .backgroundCredit{
+  .backgroundTitle, .backgroundCredit{
     position: absolute;
-
     width: 100%;
-
-    bottom:0%;
     background-color: rgba(0,0,0,0.5);
     text-align: center;
+  }
+  .backgroundTitle{
+    display:flex;
+    top:25%;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    max-width: 20%;
+  }
+  .title{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  .backgroundCredit{
+    bottom:0%;
   }
 
   a{
